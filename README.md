@@ -1,6 +1,6 @@
 # सहज जीवन (The Effortless Life)
 
-This repository is of a public, open-source and collaborative LaTeX formatted book in Marathi based on Leo Babauta's *The Effortless Life*. Its open for contribution as an extension to this 'effort' based on the following:
+This repository is of a public, open-source, live and collaborative LaTeX formatted book in Marathi. The first part is based on Leo Babauta's *The Effortless Life*. Its second part is open for contributions.
 
 - Mission: To spread knowledge of effortless life to a wider audience.
 - Vision: Let many participate, contribute and add own insights as additional chapters
@@ -12,7 +12,7 @@ No-Copyright (C) 2025 Yogesh H Kulkarni
 ## Content Arrangement
 
 ### References directory 
-Has original book pdf and its english transcript
+Has original book pdf and its English transcript
 
 ### LaTeX directory 
 
@@ -21,7 +21,8 @@ Has original book pdf and its english transcript
 		- `Main_Book_SahajJeevan_covers.tex` for outer cover
 		- `Main_Book_SahajJeevan_interior.tex` for actual book content
 	* LaTeX source for the actual book content is in `book_sahajjeevan_content.tex`
-	* Compilation Requirements
+	* Output pdfs are in the same directory.
+	* If you wish to compile yourself then requirements are:
 		- LaTeX (tested with MikTex 2.9 on Windows 7, 64bit)
 		- Need to install LaTeX packages, as and when you get such warning/suggestions.
 		- Using TexWorks as IDE
@@ -29,12 +30,12 @@ Has original book pdf and its english transcript
 	
 
 ### ChatBot directory
-<TBD> will be a RAG based chatbot on the contents of the book
+(TBD) will be a RAG based chatbot on the contents of the book
 
 ### How to Contribute
 * Go to 'LaTeX' folder.
 * Copy your images into 'images' folder and source code to 'src' folder
-* Fill your material directly in the content file towards end as a spearate chapter.
+* Fill your material directly in the content file towards end as a separate chapter.
 
 ## Disclaimer:
 * Author (firstnamelastname at yahoo dot com) gives no guarantee of the correctness of the content. Translation has been done by contributors understanding and could be wrong. 
