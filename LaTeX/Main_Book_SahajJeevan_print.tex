@@ -1,0 +1,42 @@
+\input{template_book}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{everypage}
+\usepackage{pdfpages} % For full-page image inclusion
+\usepackage{afterpage} % For better page control
+\usepackage{eso-pic}
+
+\setmainfont[Script=Devanagari] {Tiro Devanagari Marathi}
+\newfontfamily\devanagarifont[Scale=MatchUppercase]{Tiro Devanagari Marathi}
+\newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
+\graphicspath{{images/}}
+\date{} % Remove date from title page
+
+\begin{document}
+
+% For front cover
+\begin{titlepage}
+\thispagestyle{empty}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{sahajjeevan_front_cover}}
+\mbox{} % Empty box to create the page
+\end{titlepage}
+
+\input{sahajjeevan_initialpages} % Initial pages (preface, acknowledgments, etc.)
+
+\frontmatter
+\tableofcontents
+
+% Clear to start main content
+\clearpage
+
+\mainmatter
+\input{book_sahajjeevan_content}
+
+\backmatter
+
+% For back cover
+\thispagestyle{empty}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{sahajjeevan_back_cover}}
+\mbox{} % Empty box to create the page
+
+\end{document}
