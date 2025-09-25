@@ -1,9 +1,9 @@
 # सहज जीवन (The Effortless Life)
 
-This repository is of a public, open-source, live and collaborative LaTeX formatted book in Marathi. The first part is based on Leo Babauta's *The Effortless Life*. Its second part is open for contributions.
+This repository is of a public, open-source, live and collaborative LaTeX formatted book in Marathi. It is based on Leo Babauta's *The Effortless Life*. 
 
 - Mission: To spread knowledge of effortless life to a wider audience.
-- Vision: Let many participate, contribute and add own insights as additional chapters
+- Vision: Let many participate, contribute by translating the chapters
 - Values: Giving back, paying it forward!!
 - Goal: "The Effortless Life"!!
 
